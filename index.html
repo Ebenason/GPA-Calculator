@@ -1,0 +1,49 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPA Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">GPA Calculator</div>
+
+    <div class="bodyy">
+        <div class="container">
+            <label>Enter your subjects:</label>
+            <div class="inputs">
+                <h4>Subject 1</h4>
+                <input type="number" class="credits" placeholder="Credits">
+                <select name="grade" class="grade">
+                    <option value="" disabled selected hidden>Select Grade</option>
+                    <option value="10">O</option>
+                    <option value="9">A+</option>
+                    <option value="8">A</option>
+                    <option value="7">B+</option>
+                    <option value="6">B</option>
+                    <option value="5">C</option>
+                    <option value="4">P</option>
+                    <option value="0">F</option>
+                    <option value="0">*</option>
+                    <option value="0">ab</option>
+                </select>
+            </div>
+            <div class="buttons">
+                <button class="addbtn">Add</button>
+                <button class="rmbtn">Remove</button>
+                <button class="calculate">Calculate</button>
+            </div>
+        </div>
+
+        <div class="resultwindow">
+            <div class="result">Your GPA is : </div>
+            <button class="close_btn">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
