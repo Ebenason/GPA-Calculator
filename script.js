@@ -11,6 +11,11 @@ addbtn.addEventListener("click", () => {
         alert("You cannot add more than 7 subjects!");
         return;
     }
+    let creditsvalue = document.querySelector(".credits").value
+    if (creditsvalue < 0 ){
+        alert("invalid credit score")
+        return
+    }
     subcount++;
      let heading = document.createElement("h4")
      heading.textContent = "subject " +subcount;
@@ -58,6 +63,12 @@ calcbtn.addEventListener("click", () => {
     let grades = document.querySelectorAll(".grade");
     let totalCredits = 0;
     let totalPoints = 0;
+
+     let creditsvalue = document.querySelector(".credits").value
+    if (creditsvalue < 0 ){
+        alert("invalid credit score")
+        return
+    }
 
     for (let i = 0; i < credits.length; i++) {
         let creditVal = parseFloat(credits[i].value);
