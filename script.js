@@ -71,7 +71,7 @@ calcbtn.addEventListener("click", () => {
         totalPoints += creditVal * gradeVal;
     }
 
-    let gpa = (totalPoints / totalCredits).toFixed(2);
+    let gpa = (totalPoints / totalCredits).toFixed(3);
     document.querySelector(".result").textContent = `Your GPA is : ${gpa}`;
     let returnWindow = document.querySelector(".resultwindow")
     returnWindow.style.display = "flex";
