@@ -132,13 +132,3 @@ h4:hover ,select:hover , input:hover{
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
     padding: 100px;
 }
-/* .resultwindow:hover{
-    transform: scale(1.1);
-    transition-duration: 1s;
-} */
-footer{
-    background-color:transparent;
-    backdrop-filter: blur(5px);
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
-    text-align: center;
-}
